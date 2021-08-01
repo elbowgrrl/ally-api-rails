@@ -88,10 +88,14 @@ GEM
     nio4r (2.5.7)
     nokogiri (1.11.7-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.11.7-x86_64-darwin)
+      racc (~> 1.4)
     puma (5.4.0)
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
+    rack-cors (1.1.1)
+      rack (>= 2.0.0)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (6.1.4)
@@ -143,12 +147,14 @@ GEM
 
 PLATFORMS
   arm64-darwin-20
+  x86_64-darwin-17
 
 DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   listen (~> 3.3)
   puma (~> 5.0)
+  rack-cors
   rails (~> 6.1.4)
   spring
   sqlite3 (~> 1.4)
