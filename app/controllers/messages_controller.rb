@@ -6,6 +6,4 @@ class MessagesController < ApplicationController
     render json: @messages, status: :ok
   end  
 
-  
-
 end
