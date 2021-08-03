@@ -1,0 +1,23 @@
+{
+  "name": "ally-api-rails",
+  "version": "1.0.0",
+  "description": "Hi Rossanne and Cynthia",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elbowgrrl/ally-api-rails.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elbowgrrl/ally-api-rails/issues"
+  },
+  "homepage": "https://github.com/elbowgrrl/ally-api-rails#readme"
+}
