@@ -1,4 +1,4 @@
-class AnimalsController < ApplicationController
+class  Api::AnimalsController < ApplicationController
   
   def index
     @animals = Animal.all
