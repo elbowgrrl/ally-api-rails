@@ -40,31 +40,25 @@ Animal.destroy_all
 
 Animal.create!([
 {
-  image_url: "https://i.imgur.com/9dkctld.jpeg"
+  image_url: "https://i.imgur.com/hA9rZdf.png"
 },
 {
-  image_url: "https://i.imgur.com/EAHHIuG.jpeg"
+  image_url: "https://i.imgur.com/r7Ho0S4.png"
 },
 {
-  image_url: "https://i.imgur.com/vEz4kVq.jpeg"
+  image_url: "https://i.imgur.com/AwoZvbO.png"
 },
 {
-  image_url: "https://i.imgur.com/ViuI3ue.jpeg"
+  image_url: "https://i.imgur.com/o4j89jY.png"
 },
 {
-  image_url: "https://i.imgur.com/RQLkBX0.jpeg"
+  image_url: "https://i.imgur.com/DozcRqR.png"
 },
 {
-  image_url: "https://i.imgur.com/LHmM6YI.jpeg"
+  image_url: "https://i.imgur.com/jYPTGt8.png"
 },
 {
-  image_url: "https://i.imgur.com/7ZXKaVO.jpeg"
-},
-{
-  image_url: "https://i.imgur.com/DcCqmpF.jpeg"
-},
-{
-  image_url: "https://i.imgur.com/YjXw6QF.jpeg"
-},
+  image_url: "https://i.imgur.com/PIF7uDz.png"
+}
 ])
 
