@@ -1,12 +1,14 @@
 # README
 
-Hi Rossanne and Cynthia
+Setup:
 
-I think you will be able to get this up and running by forking and cloning it, then runnning `bundle install`.
+Install locally and run `bundle install`.
+
 After that, run `bin/rails db:migrate` and then `rails db:seed` to run the migrations and seed the database on your local machine.
-The only seeds I have set up so far are for the `Message` model. You can view the json data by naviating to 'http://localhost:3002/messages'
 
-The dependancies should all be listed in the gemfile. 
+This API is configured to run on `http://localhost:3002/api/messages` and `http://localhost:3002/api/animals`
+
+Dependencies listed in the gemfile. 
 
 Ruby version: 3.0.0
 Rails version: 6.1.4
